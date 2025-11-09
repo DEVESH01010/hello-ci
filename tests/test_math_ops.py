@@ -8,8 +8,8 @@ def test_add():
     assert add(2, 3) == 5
 
 
+# tests/test_math_ops.py
+def test_subtract():
+    from math_ops import subtract
+    assert subtract(5, 3) == 2
 
-from src.math_ops import add
-
-def test_add():
-    assert add(2, 3) == 5
